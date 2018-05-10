@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <Button x:Name="okbtn" Content="Open" HorizontalAlignment="Left" Margin="55,125,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click" Grid.Column="1" Height="20"/>
         <Button x:Name="cnclbtn" Content="Cancel" HorizontalAlignment="Left" Margin="250,125,0,0" VerticalAlignment="Top" Width="80" Grid.Column="1" Height="20" Click="cnclbtn_Click"/>
-        <Label x:Name="errmsg" Content="Click to open the Message!!" Margin="55,50,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" HorizontalAlignment="Left" Width="275"/>
+        <Label x:Name="errmsg" Content="Click to open the Message. open message, again" Margin="55,50,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" HorizontalAlignment="Left" Width="275"/>
 
     </Grid>
 </Window>
